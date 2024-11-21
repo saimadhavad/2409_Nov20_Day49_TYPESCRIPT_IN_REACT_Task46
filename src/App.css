@@ -13,6 +13,7 @@ body {
   width: 900px;
   margin: 10px auto;
   background: #232526;
+  padding: 10px;
 }
 .heading {
   color: goldenrod;
@@ -20,14 +21,21 @@ body {
 .IPLT20Players {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
   justify-content: center;
   align-items: center;
+  font-size: 0.7rem;
+
 }
 .playersDiv {
   margin: 10px;
   padding: 10px;
   border-radius: 15px;
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
 }
 img {

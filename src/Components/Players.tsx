@@ -1,9 +1,14 @@
 import React from 'react'
 
-function Players() {
+function Players(props:any) {
   return (
-    <div className='IPLT20Players'>
-    <div className='playersDiv CSKColor'>
+    <div>
+            <img src={props.imageURL} alt='CSKImage'></img>
+            <h2>Name : {props.name}</h2>
+            <h3>Team : {props.team}</h3>
+            <h4>Role : {props.role}</h4>
+
+    {/* <div className='playersDiv CSKColor'>
       <img src='./images/CSKImage.png' alt='CSKImage'></img>
       <h2>Name : Ruturaj Gaikwad</h2>
       <h3>Team : Chennai Super Kings (CSK)</h3>
@@ -62,7 +67,7 @@ function Players() {
       <h2>Name : Pat Cummins</h2>
       <h3>Team : Sunrisers Hyderabad (SRH)</h3>
       <h4>Role : Bowler</h4>
-    </div>
+    </div> */}
 </div>
   )
 }
