@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background: linear-gradient(to right, #232526, #414345);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+.App {
+  text-align: center;
+  width: 900px;
+  margin: 10px auto;
+  background: #232526;
+}
+.heading {
+  color: goldenrod;
+}
+.IPLT20Players {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.playersDiv {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 0.7rem;
+
+}
+img {
+  width: 250px;
+}
+
+.CSKColor {
+  background-color: #ffcb05;
+}
+.DCColor{
+  background-color: #c90006;
+  color: #dfeff0;
+}
+.GTColor{
+  background-color: #77c7f2;
+}
+.KKRColor{
+  background-color: #5d506d;
+  color: #dfeff0;
+}
+.LSGColor{
+  background-color: #0156e1;
+}
+.MIColor{
+  background-color: #153a75;
+  color: #dfeff0;
+}
+.PKColor{
+  background-color: #d71920;
+}
+.RRColor{
+  background-color: #eb83b5;
+  color: #dfeff0;
+}
+.RCBColor{
+  background-color: #cb2f2f;
+}
+.SRHColor{
+  background-color: #8b2824;
+  color: #dfeff0;
+} 
